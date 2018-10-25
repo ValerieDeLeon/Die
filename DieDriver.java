@@ -18,8 +18,7 @@ public class DieDriver
 		for (int i = 1; i <= TOTAL_ROLLS; i++) 
 		{
 			roll = myDie.roll();
+			System.out.println("Your die has rolled a " + roll + ".");
 		}
-		
-		System.out.println("Your die has rolled a " + roll + ".");
 	}
 }
