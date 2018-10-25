@@ -13,11 +13,12 @@ public class Die
 	public Die(int sides)
 	{
 		numSides = sides;
+		roll();
 	}
 	
 	public int roll()
 	{
-		rollVal = (int) (Math.random() * numSides);
+		rollVal = (int) (Math.random() * numSides) + 1;
 		return rollVal;
 	}
 }
